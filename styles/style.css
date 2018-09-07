@@ -1,7 +1,3 @@
-/* body {
-  background-color: purple;
-} */
-
 h4 {
     text-align: center;
 }
@@ -34,13 +30,11 @@ h4 {
 
 .reward {
   position: absolute;
-  /* padding:10vw; */
-  top: 10%;  /* max-width:25v  /  /* max-wi  /* max-width:25vw; */dth:25vw; */* max-width:25vw; */w; */
+  top: 10%;
   right: 50%
   transform: translate(-50%, -50%);
   font-size: 2rem;
   background-color:rgba(255,255,255,0.6);
-  /* border-radius:10%; */
   text-align: center;
 }
 
@@ -60,7 +54,6 @@ h4 {
 
 .card:hover .reward {
   transition: .5s ease-in;
-  /* padding:0.075vw; */
   opacity:0;
   visibility:hidden;
 }
@@ -85,7 +78,6 @@ h4 {
   float: left;
 }
 #quote img {
-   /* float: right; */
    margin: 1vw 3vw;
  }
 
