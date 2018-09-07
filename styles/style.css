@@ -1,3 +1,107 @@
-body {
+/* body {
   background-color: purple;
+} */
+
+h4 {
+    text-align: center;
 }
+
+.nav-pills .pill-1 .nav-link:not(.active) {
+    background-color: rgba(125,125,125,0.7);
+}
+
+.nav-pills .pill-1 .nav-link {
+    background-color: rgba(125,125,125,1);
+    color: white;
+}
+.card {
+  text-align: center;
+}
+
+.card-deck img {
+  display:block;
+  margin: 5% 5% auto 5%;
+  position:relative;
+  width:90%;
+  height:auto;
+  transition: .5s ease;
+  opacity:0.3;
+}
+
+.card-deck img:hover {
+  opacity:1;
+}
+
+.reward {
+  position: absolute;
+  /* padding:10vw; */
+  top: 10%;
+  right: 50%
+  transform: translate(-50%, -50%);
+  font-size: 2.7vw;
+  background-color:rgba(255,255,255,0.6);
+  /* border-radius:10%; */
+  text-align: center;
+}
+
+.price {
+  color:rgba(206,86,28,1);
+}
+
+.name {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4vw;
+  font-weight: bold;
+  color: white;
+}
+
+.card:hover .reward {
+  transition: .5s ease-in;
+  /* padding:0.075vw; */
+  opacity:0;
+  visibility:hidden;
+}
+
+
+.card:hover .name {
+  top: 65%;
+  font-size:4vw;
+  transition: .5s ease-out;
+}
+
+#getMyReward img {
+  float:right;
+  margin-left: 1.5vw;
+}
+
+#getMyReward button {
+  margin: 0 auto;
+}
+
+.media {
+  float: left;
+}
+#quote img {
+   /* float: right; */
+   margin: 1vw 3vw;
+ }
+
+ .card-body {
+   align-items: center;
+ }
+
+ #joinTheArmy img {
+   float:left;
+   margin-right: 1.5vw;
+ }
+
+ .app-footer {
+   background-color: #343a40;
+ }
+
+ .app-footer a {
+   color: white;
+ }

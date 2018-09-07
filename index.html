@@ -5,13 +5,235 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap, FontAwesome & custom CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
 
-    <title>findThePrecious</title>
+    <title>FindThePrecious</title>
   </head>
   <body>
+    <!-- Boostrap Navbar -->
+    <div class=container>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">FindThePrecious.com</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#fellows">Fellows <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#theRing">The Ring</a>
+            <a class="nav-item nav-link" href="#getMyReward">Get my reward</a>
+            <a class="nav-item nav-link" href="#bestHunter">Best Hunters</a>
+            <a class="nav-item nav-link" href="#joinTheArmy">Join the Army</a>
+            <a class="nav-item nav-link" href="#contactUs">Contact us</a>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Boostrap Carousel -->
+      <div id="carouselExampleFade" class="carousel mb-3 slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="Images/slide1.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Dangerous fellowship try to destroy the ring</h2>
+              <h4>Orcs, Goblins, Uruk-hai, protect your master Sauron!</h4>
+            </div>
+          </div>
+          <div class="carousel-item slide2">
+            <img class="d-block w-100" src="Images/slide2.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Assemble an army to destroy them all</h2>
+              <h4>Balrogs, arise from the darkness!</h4>
+            </div>
+          </div>
+          <div class="carousel-item slide3">
+            <img class="d-block w-100" src="Images/slide3.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Retrieve the ring to rule them all</h2>
+              <h4>Really though, find it you guys plz</h4>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+    <!-- Boostrap Pills -->
+      <h2>Fellows Wanted dead (or alive if you want to eat them)</h2>
+      <ul class="nav nav-pills mt-3 justify-content-center">
+        <li class="nav-item mr-1 pill-1">
+          <a class="nav-link active" href="#">Most Wanted</a>
+        </li>
+        <li class="nav-item mr-2 pill-1">
+          <a class="nav-link" href="#">Most Dangerous</a>
+        </li>
+        <li class="nav-item pill-1">
+          <a class="nav-link" href="#">Already captured</a>
+        </li>
+      </ul>
+    <!-- Boostrap Cards -->
+      <div class="card-deck mt-3">
+        <div class="card">
+          <img src="http://images.innoveduc.fr/integration_gandalf.png" alt="Gandalf, smoking his pipe">
+          <div class="reward">Reward: <span class="price">1000</span> golden coins</div>
+          <div class="name">Gandalf</div>
+          <div class="card-body">
+            <h5 class="card-title">The wizard</h5>
+            <p class="card-text">Hate this guy...</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="http://images.innoveduc.fr/integration_gandalf.png" alt="Gandalf, smoking his pipe">
+          <div class="reward">Reward: <span class="price">1000</span> golden coins</div>
+          <div class="name">Gandalf</div>
+          <div class="card-body">
+            <h5 class="card-title">The wizard</h5>
+            <p class="card-text">Hate this guy...</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="http://images.innoveduc.fr/integration_gandalf.png" alt="Gandalf, smoking his pipe">
+          <div class="reward">Reward: <span class="price">1000</span> golden coins</div>
+          <div class="name">Gandalf</div>
+          <div class="card-body">
+            <h5 class="card-title">The wizard</h5>
+            <p class="card-text">Hate this guy...</p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div id="getMyReward">
+        <h2>I have captured one of them, how to get my reward ?</h2>
+        <span><img src="https://fakeimg.pl/140x140/" alt=""></span>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+        <div class="text-center"><button type="button" class="btn btn-outline-secondary">Contact us</button></div>
+      </div>
+      <hr />
+      <div id="bestHunters">
+        <h2>Best Hunters</h2>
+        <div class="row">
+          <div class="media col-md-6 mb-3">
+            <img class="align-self-center mr-3" src="https://fakeimg.pl/70x70/" alt="Generic placeholder image">
+            <div class="media-body">
+              <h5 class="mt-0">Elves-killer22</h5>
+              <p>2 captures - <a href="#" target="_blank">Profile</a></p>
+              <button type="button" class="btn btn-fb"><i class="fa fa-thumbs-up"></i> Like | 69K</button>
+            </div>
+          </div>
+          <div class="media col-md-6 mb-3">
+            <img class="align-self-center mr-3" src="https://fakeimg.pl/70x70/" alt="Generic placeholder image">
+            <div class="media-body">
+              <h5 class="mt-0">Goblin45</h5>
+              <p>2 captures - <a href="#" target="_blank">Profile</a></p>
+              <button type="button" class="btn btn-fb"><i class="fa fa-thumbs-up"></i> Like | 108K</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="card border-light mb-3">
+        <div class="card-header">Ring capabilities</div>
+        <div class="card-body">
+          <h6 class="card-title">What can our master Sauron do with the ring?</h6>
+          <table class="table">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">Feature</th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td>Main</td>
+                  <td>One ring to rule them all</td>
+                </tr>
+                <tr>
+                  <td>Invisibility</td>
+                  <td>You can't see me</td>
+                </tr>
+                <tr>
+                  <td>Power</td>
+                  <td>Destroy the world</td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div id="quote" class="card">
+        <div class="card-header">Why is the ring so awesome?</div>
+        <div class="card-body">
+          <span class="card-text">My preciouuuuuuuuuuus! Hrk hrk, we want our preciouuuuuuuuus!!</span>
+          <img class="align-self-center mr-3" src="https://fakeimg.pl/110x110/" style="border-radius:50%;" alt="Generic placeholder image">
+        </div>
+      </div>
+      <hr />
+      <div id="joinTheArmy">
+        <h2>Join Mordor Army, we need you!</h2>
+        <span><img src="https://fakeimg.pl/140x140/" alt=""></span>
+        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+        <div class="text-center"><button type="button" class="btn btn-outline-secondary">More info on SauronRulesThemAll.com</button></div>
+      </div>
+      <hr />
+      <div class="contactUs">
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlInput1"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="@">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput2"></label>
+            <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="&#xf015;" style="font-family:FontAwesome, Arial;" />
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"></label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>I have seen one of them</option>
+              <option>The hobbit</option>
+              <option>The wizard</option>
+              <option>The dwarf</option>
+              <option>The elf</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </form>
+      </div>
+
+      <!-- Footer -->
+      <footer class="app-footer pt-3">
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <p><a href="#" target="_blank">About us</a></p>
+            <p><a href="#" target="_blank">Fellows</a></p>
+            <p><a href="#" target="_blank">Join our Army</a></p>
+          </div>
+          <div class="col-md-3 text-center">
+            <p><a href="#" target="_blank">FAQ</a></p>
+            <p><a href="#" target="_blank">Reward conditions</a></p>
+            <p><a href="#" target="_blank">Legal mentions</a></p>
+          </div>
+          <div class="col-md-6 text-center">
+            <p><a href="#" target="_blank">Sauron4ever.com</a></p>
+            <p><a href="#" target="_blank">Follow him also on Twitter</a></p>
+          </div>
+        </div>
+      </footer>
+  <!-- Footer -->
+    </div>
+
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
