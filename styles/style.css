@@ -1,15 +1,24 @@
+@font-face {
+    font-family: "aniron";
+    src: url(fonts/aniron/anirm___.ttf)format("truetype");
+}
+
+@font-face {
+    font-family: "Party Business";
+    src: url(fonts/partybusiness/partybusiness.ttf)format("truetype");
+}
+
+body {
+  font-family: "aniron", arial;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "aniron";
+}
+
 h4 {
     text-align: center;
-    /* kajskjs */
 }
- #fellows #bestHunters #joinTheArmy {
-   background-image: url(/Images/bg_light.png)
- }
-
- #getMyReward #theRing #contactUs {
-   background-image: url(/Images/bg_dark.png)
- }
-
 
 .nav-pills .pill-1 .nav-link:not(.active) {
     background-color: rgba(125,125,125,0.7);
@@ -21,8 +30,11 @@ h4 {
 }
 
 .card {
-  align-items: center;
   text-align: center;
+}
+
+.gimli {
+  align-items: center;
 }
 
 .card-deck img {
