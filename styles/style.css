@@ -38,7 +38,7 @@ h4 {
 
 .nav-pills .pill-1 .nav-link {
     background-color: rgba(125,125,125,0);
-    color: orangered;
+    color: orange;
 }
 
 .card {
@@ -73,6 +73,64 @@ h4 {
 .navbar {
   background-color: orangered;
   color: white;
+}
+body {
+  background-image: url("../Images/bg_dark.png")
+}
+
+#fellows {
+  padding: 3vw 1vw;
+  background-image: url("../Images/bg_light.png")
+}
+
+#fellows .card {
+  background-color: rgb(35,35,35);
+  color: white;
+}
+
+#getMyReward {
+  padding: 3vw 1vw;
+  color:white;
+}
+
+#getMyReward img {
+  border-radius: 50%;
+}
+
+#bestHunters {
+  padding: 3vw 2vw;
+  background-image: url("../Images/bg_light.png")
+}
+
+#bestHunters h5 {
+  color:orange;
+}
+
+#bestHunters img {
+border-radius: 15%;
+}
+
+#theRing {
+  padding: 3vw 1vw;
+  background-image: url("../Images/bg_dark.png");
+}
+
+#theRing th {
+  background-color:orange;
+}
+
+#theRing .card-header {
+  background-color: orange;
+}
+
+
+hr {
+  height: 3px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: orange;
+  border: 0;
+  width: 40%;
 }
 
 .price {
@@ -114,12 +172,15 @@ h4 {
 .media {
   float: left;
 }
-#quote img {
-   margin: 1vw 3vw;
- }
 
  .card-body {
    align-items: center;
+ }
+
+ #joinTheArmy {
+   padding: 3vw 1vw;
+   margin: 1vw;
+   background-image: url("../Images/bg_light.png");
  }
 
  #joinTheArmy img {
@@ -127,8 +188,13 @@ h4 {
    margin-right: 1.5vw;
  }
 
+ #contactUs {
+   color: white;
+   font-size: 2rem;
+ }
+
  .app-footer {
-   background-color: #343a40;
+   background-image: url("../Images/bg_dark.png");
  }
 
  .app-footer a {
