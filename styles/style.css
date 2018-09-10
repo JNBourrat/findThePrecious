@@ -1,11 +1,11 @@
 @font-face {
     font-family: "aniron";
-    src: url(fonts/aniron/anirm___.ttf)format("truetype");
+    src: url(../fonts/aniron/anirm___.ttf)format("truetype");
 }
 
 @font-face {
     font-family: "Party Business";
-    src: url(fonts/partybusiness/partybusiness.ttf)format("truetype");
+    src: url(../fonts/partybusiness/partybusiness.ttf)format("truetype");
 }
 
 body {
