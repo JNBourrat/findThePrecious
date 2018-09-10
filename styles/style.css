@@ -186,6 +186,8 @@ hr {
  #joinTheArmy img {
    float:left;
    margin-right: 1.5vw;
+   width: 300px;
+   height:auto;
  }
 
  #contactUs {
