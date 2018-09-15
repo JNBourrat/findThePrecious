@@ -11,3 +11,6 @@ Guidelines :
 + Integrate the hover-effects you made earlier in this project
 
 + Follow the good practices of web development we talked in previous tasks
+
+
+## [See it here](https://rawgit.com/JNBourrat/findThePrecious/master/index.html) ##
