@@ -1,13 +1,13 @@
 # findThePrecious
 
-Projet pour la Wild Code School.
+## Wild Code School integration project ##
 
-Consignes :
+Guidelines :
 
-+ Utilise le système de grille de Bootstrap
++ Make use of Bootstrap's grid system
 
-+ Utilise les composants de Bootstrap (la plupart sont indiqués en marge sur la maquette)
++ Use Bootstrap's components (see wireframe)
 
-+ Pour la partie sur les portraits, réutilise ce que tu as produit la quête précédente (effet au survol).
++ Integrate the hover-effects you made earlier in this project
 
-+ Suis toutes les bonnes pratiques évoquées dans les quêtes précédentes.
++ Follow the good practices of web development we talked in previous tasks
